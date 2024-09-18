@@ -1,0 +1,22 @@
+.landingDiv {
+    width: 100%;
+    max-height: 25vh
+}
+
+.c1 {
+    margin-top: 10vh;
+}
+
+.c1 button {
+    color: black;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid black
+}
+
+.c2 {
+    margin-top: 5vh;
+}
+
+.c2 h2 {
+    font-family: 'Poppins', sans-serif
+}

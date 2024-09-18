@@ -1,0 +1,42 @@
+.n1 {
+    background-color: rgba(255, 0, 0, 0);
+    height: 10vh;
+}
+
+.button.dropdown {
+    /* border: 2px solid #FFE6FA; */
+    border-radius: 20px;
+    color: #c2c7d6;
+    background-color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #efefee;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .navbar,
+    .navbar-end,
+    .navbar-menu,
+    .navbar-start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navbar,
+    .navbar-end,
+    .navbar-menu,
+    .navbar-start {
+        display: flex;
+
+
+    }
+}

@@ -1,0 +1,36 @@
+.m4 {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.m4 section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        scale: 0
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .m4 {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .m4 {
+        width: 30%;
+    }
+}

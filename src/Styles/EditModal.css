@@ -1,0 +1,36 @@
+.m2 {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.editButtonSection {
+    display: flex;
+    justify-content: center;
+}
+
+.editButtonSection button {
+    width: 70%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        scale: 0
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .m2 {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .m2 {
+        width: 30%;
+    }
+}
