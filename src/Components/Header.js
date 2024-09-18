@@ -5,7 +5,7 @@ import SearchTasks from "./SearchTasks";
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
 
-function Header({ }) {
+function Header() {
     const [openDropdrown, setOpenDropDown] = useState(false);
     const dropdownRef = useRef(null);
     const { selectedFilter, getFilterType } = useContext(TaskContext);
